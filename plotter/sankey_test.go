@@ -11,12 +11,12 @@ import (
 	"os"
 	"testing"
 
-	"gonum.org/v1/plot"
-	"gonum.org/v1/plot/internal/cmpimg"
-	"gonum.org/v1/plot/vg"
-	"gonum.org/v1/plot/vg/draw"
-	"gonum.org/v1/plot/vg/recorder"
-	"gonum.org/v1/plot/vg/vgimg"
+	"github.com/igrmk/plot"
+	"github.com/igrmk/plot/internal/cmpimg"
+	"github.com/igrmk/plot/vg"
+	"github.com/igrmk/plot/vg/draw"
+	"github.com/igrmk/plot/vg/recorder"
+	"github.com/igrmk/plot/vg/vgimg"
 )
 
 // ExampleSankey_sample creates a simple sankey diagram.

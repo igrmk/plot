@@ -10,9 +10,9 @@ import (
 	"os"
 	"testing"
 
-	"gonum.org/v1/plot"
-	"gonum.org/v1/plot/internal/cmpimg"
-	"gonum.org/v1/plot/vg"
+	"github.com/igrmk/plot"
+	"github.com/igrmk/plot/internal/cmpimg"
+	"github.com/igrmk/plot/vg"
 )
 
 const runImageLaTeX = false
@@ -63,7 +63,7 @@ func ExampleImage_log() {
 	p.Title.Text = "A Logo"
 
 	// load an image
-	f, err := os.Open("../../gonum/gopher.png")
+	f, err := os.Open("gopher.png")
 	if err != nil {
 		log.Fatalf("error opening image file: %v\n", err)
 	}

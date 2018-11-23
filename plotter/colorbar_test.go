@@ -9,9 +9,9 @@ import (
 	"log"
 	"testing"
 
-	"gonum.org/v1/plot"
-	"gonum.org/v1/plot/internal/cmpimg"
-	"gonum.org/v1/plot/palette/moreland"
+	"github.com/igrmk/plot"
+	"github.com/igrmk/plot/internal/cmpimg"
+	"github.com/igrmk/plot/palette/moreland"
 )
 
 func ExampleColorBar_horizontal() {

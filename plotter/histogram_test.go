@@ -13,9 +13,9 @@ import (
 
 	"golang.org/x/exp/rand"
 
-	"gonum.org/v1/plot"
-	"gonum.org/v1/plot/internal/cmpimg"
-	"gonum.org/v1/plot/vg"
+	"github.com/igrmk/plot"
+	"github.com/igrmk/plot/internal/cmpimg"
+	"github.com/igrmk/plot/vg"
 )
 
 // An example of making a histogram.

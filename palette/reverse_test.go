@@ -9,11 +9,11 @@ import (
 	"log"
 	"testing"
 
-	"gonum.org/v1/plot"
-	"gonum.org/v1/plot/internal/cmpimg"
-	"gonum.org/v1/plot/palette"
-	"gonum.org/v1/plot/palette/moreland"
-	"gonum.org/v1/plot/plotter"
+	"github.com/igrmk/plot"
+	"github.com/igrmk/plot/internal/cmpimg"
+	"github.com/igrmk/plot/palette"
+	"github.com/igrmk/plot/palette/moreland"
+	"github.com/igrmk/plot/plotter"
 )
 
 // This example creates a color bar and a second color bar where the

@@ -12,11 +12,11 @@ import (
 	"os"
 	"testing"
 
-	"gonum.org/v1/plot"
-	"gonum.org/v1/plot/internal/cmpimg"
-	"gonum.org/v1/plot/plotter"
-	"gonum.org/v1/plot/vg/draw"
-	"gonum.org/v1/plot/vg/vgpdf"
+	"github.com/igrmk/plot"
+	"github.com/igrmk/plot/internal/cmpimg"
+	"github.com/igrmk/plot/plotter"
+	"github.com/igrmk/plot/vg/draw"
+	"github.com/igrmk/plot/vg/vgpdf"
 )
 
 // ExampleEmbedFonts shows how one can embed (or not) fonts inside

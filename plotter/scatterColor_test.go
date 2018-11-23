@@ -13,12 +13,12 @@ import (
 
 	"golang.org/x/exp/rand"
 
-	"gonum.org/v1/plot"
-	"gonum.org/v1/plot/internal/cmpimg"
-	"gonum.org/v1/plot/palette/moreland"
-	"gonum.org/v1/plot/vg"
-	"gonum.org/v1/plot/vg/draw"
-	"gonum.org/v1/plot/vg/vgimg"
+	"github.com/igrmk/plot"
+	"github.com/igrmk/plot/internal/cmpimg"
+	"github.com/igrmk/plot/palette/moreland"
+	"github.com/igrmk/plot/vg"
+	"github.com/igrmk/plot/vg/draw"
+	"github.com/igrmk/plot/vg/vgimg"
 )
 
 // ExampleScatter_color draws a colored scatter plot.

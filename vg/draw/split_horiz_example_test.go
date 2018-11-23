@@ -7,8 +7,8 @@ package draw_test
 import (
 	"fmt"
 
-	"gonum.org/v1/plot/vg"
-	"gonum.org/v1/plot/vg/draw"
+	"github.com/igrmk/plot/vg"
+	"github.com/igrmk/plot/vg/draw"
 )
 
 // SplitHorizontal returns the left and right portions of c after splitting it

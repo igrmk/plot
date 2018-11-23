@@ -7,10 +7,10 @@ package plotter
 import (
 	"image/color"
 
-	"gonum.org/v1/plot"
-	"gonum.org/v1/plot/palette"
-	"gonum.org/v1/plot/vg"
-	"gonum.org/v1/plot/vg/draw"
+	"github.com/igrmk/plot"
+	"github.com/igrmk/plot/palette"
+	"github.com/igrmk/plot/vg"
+	"github.com/igrmk/plot/vg/draw"
 )
 
 // PaletteThumbnailers creates a slice of plot.Thumbnailers that can be used to

@@ -7,8 +7,8 @@ package plot
 import (
 	"math"
 
-	"gonum.org/v1/plot/vg"
-	"gonum.org/v1/plot/vg/draw"
+	"github.com/igrmk/plot/vg"
+	"github.com/igrmk/plot/vg/draw"
 )
 
 // A Legend gives a description of the meaning of different

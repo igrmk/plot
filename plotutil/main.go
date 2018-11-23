@@ -9,9 +9,9 @@ package main
 import (
 	"golang.org/x/exp/rand"
 
-	"gonum.org/v1/plot"
-	"gonum.org/v1/plot/plotter"
-	"gonum.org/v1/plot/plotutil"
+	"github.com/igrmk/plot"
+	"github.com/igrmk/plot/plotter"
+	"github.com/igrmk/plot/plotutil"
 )
 
 var examples = []struct {

@@ -16,14 +16,14 @@
 // For more information see:
 // http://www.personal.psu.edu/cab38/ColorBrewer/ColorBrewer_learnMore.html
 //
-package brewer // import "gonum.org/v1/plot/palette/brewer"
+package brewer // import "github.com/igrmk/plot/palette/brewer"
 
 import (
 	"errors"
 	"fmt"
 	"image/color"
 
-	"gonum.org/v1/plot/palette"
+	"github.com/igrmk/plot/palette"
 )
 
 // Color represents a Brewer Palette color.

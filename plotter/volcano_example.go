@@ -14,11 +14,11 @@ import (
 	"image/color"
 
 	"gonum.org/v1/gonum/mat"
-	"gonum.org/v1/plot"
-	"gonum.org/v1/plot/palette"
-	"gonum.org/v1/plot/plotter"
-	"gonum.org/v1/plot/vg"
-	"gonum.org/v1/plot/vg/draw"
+	"github.com/igrmk/plot"
+	"github.com/igrmk/plot/palette"
+	"github.com/igrmk/plot/plotter"
+	"github.com/igrmk/plot/vg"
+	"github.com/igrmk/plot/vg/draw"
 )
 
 type deciGrid struct{ mat.Matrix }
