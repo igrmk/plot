@@ -1,6 +1,6 @@
 // Generated code do not edit. Run `go generate volcano_example.go`.
 
-// Copyright ©2015 The gonum Authors. All rights reserved.
+// Copyright ©2015 The Gonum Authors. All rights reserved.
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
@@ -13,12 +13,12 @@ package main
 import (
 	"image/color"
 
-	"gonum.org/v1/gonum/mat"
 	"github.com/igrmk/plot"
 	"github.com/igrmk/plot/palette"
 	"github.com/igrmk/plot/plotter"
 	"github.com/igrmk/plot/vg"
 	"github.com/igrmk/plot/vg/draw"
+	"gonum.org/v1/gonum/mat"
 )
 
 type deciGrid struct{ mat.Matrix }

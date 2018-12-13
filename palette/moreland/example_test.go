@@ -1,4 +1,4 @@
-// Copyright ©2016 The gonum Authors. All rights reserved.
+// Copyright ©2016 The Gonum Authors. All rights reserved.
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
@@ -10,7 +10,6 @@ import (
 	"os"
 	"testing"
 
-	"gonum.org/v1/gonum/mat"
 	"github.com/igrmk/plot"
 	"github.com/igrmk/plot/internal/cmpimg"
 	"github.com/igrmk/plot/palette"
@@ -18,6 +17,7 @@ import (
 	"github.com/igrmk/plot/vg"
 	"github.com/igrmk/plot/vg/draw"
 	"github.com/igrmk/plot/vg/vgimg"
+	"gonum.org/v1/gonum/mat"
 )
 
 type offsetUnitGrid struct {
